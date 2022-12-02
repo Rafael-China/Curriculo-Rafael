@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/x-icon" href="img/icone.png">
+    <title>Rafael Nogueira</title>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container" id="nav-container">
+
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="img/hipopotamo.png" alt="hipopotamo Assitente"> Bem Vindo!!!
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    arial-controls="navbar-links" arial-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+
+                    <div class="navbar-nav">
+                        <a class="nav-itens nav-link" id="#sobre">Sobre mim</a>
+                        <a class="nav-itens nav-link" id="#time">Meu Time</a>
+                        <a class="nav-itens nav-link" id="#portifolio">Projetos</a>
+                        <a class="nav-itens nav-link" id="#contato">Contato</a>
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div id="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="main-title" id="sobre">Sobre mim</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img/Rafael.jpeg" alt="Rafael">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-title"> Eu </h3>
+                        <p> Olá! Seja muito bem-vindo ao meu site, meu nome é Rafael de Carvalho Nogueira, mas me chame
+                            de
+                            China, tenho 19 anos, atualmente sou estudante de engenharia elétrica na UFMG (Universidade
+                            Federal de Minas
+                            Gerais) 1° período, devido ao ingresso na faculdade sou ex estudante do Senai CTTI
+                            (Centro de Treinamento da Tecnologia
+                            Informação),
+                            onde estava cursando o 2° módulo. Estavamos estudando no momento HTML 5, CSS 3, JavaScript.
+                            Com
+                            tudo,
+                            já tinhamos aprendido duas linguagens de programação, são elas: C# (CSharp); C++
+                            (Cplusplus).
+                            Não ficamos apenas com as linguagens de programaçãao, mas também mexemos com Data Base
+                            (Banco de
+                            Dados),
+                            utilizando as ferramentas,
+                            MySQL WorkBench 8.0 CE e XAMPP Control Panel.
+                        </p>
+                        <p> A seguir algumas competências. Fique
+                            à vontade para navegar, a "casa" é sua. <br><strong> Att: Rafael China</strong>
+                        </p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i> Portugol </li>
+                            <li><i class="fas fa-check"></i> C++ </li>
+                            <li><i class="fas fa-check"></i> C# </li>
+                            <li><i class="fas fa-check"></i> C </li>
+                            <li><i class="fas fa-check"></i> MySQL </li>
+                            <li><i class="fas fa-check"></i> HTML5 </li>
+                            <li><i class="fas fa-check"></i> CSS3 </li>
+                            <li><i class="fas fa-check"></i> Java Script </li>
+                            <li><i class="fas fa-check"></i> Bootstrap </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Time -->
+
+        <div id="team-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" id="time">
+                        <h3 class="main-title"> Meu time </h3>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="img/Card Rafael.jpeg" class="card-img-top" alt="Rafael">
+                            <div class="card-body">
+                                <h5 class="card-title"> Rafael </h5>
+                                <p class="card-text"> Desenvolvedor </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="img/" class="card-img-top" alt="Você">
+                            <div class="card-body">
+                                <h5 class="card-title"> ??? </h5>
+                                <p class="card-text"> Design </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfólio -->
+        <div id="portfolio-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="portifolio">
+                        <h3 class="main-title"> Conheça meus projetos </h3>
+                    </div>
+
+                    <!-- C -->
+
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active displayNone"> C </button>
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/c++1.png" class="img-fluid" alt="Projeto 1">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/c++2.png" class="img-fluid" alt="Projeto 2">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++3.png" class="img-fluid" alt="Projeto 3">
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/c++4.png" class="img-fluid" alt="Projeto 4">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/c++5.png" class="img-fluid" alt="Projeto 5">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++6.png" class="img-fluid" alt="Projeto 6">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++7.png" class="img-fluid" alt="Projeto 7">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++8.png" class="img-fluid" alt="Projeto 8">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++9.png" class="img-fluid" alt="Projeto 9">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++10.png" class="img-fluid" alt="Projeto 10">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++11.png" class="img-fluid" alt="Projeto 11">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/c++12.png" class="img-fluid" alt="Projeto 12">
+                    </div>
+
+                    <!-- C# -->
+
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active"> C# </button>
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/csharp1.png" class="img-fluid" alt="Projeto 1">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/csharp2.png" class="img-fluid" alt="Projeto 2">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/csharp3.png" class="img-fluid" alt="Projeto 3">
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/csharp4.png" class="img-fluid" alt="Projeto 4">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/csharp11.png" class="img-fluid" alt="Projeto 5">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/csharp12.png" class="img-fluid" alt="Projeto 6">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/csharp13.png" class="img-fluid" alt="Projeto 7">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/csharp14.png" class="img-fluid" alt="Projeto 8">
+                    </div>
+
+                    <!-- MySQL -->
+
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active"> MySQL </button>
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/BD1.png" class="img-fluid" alt="Projeto 1">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/BD2.png" class="img-fluid" alt="Projeto 2">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/BD3.png" class="img-fluid" alt="Projeto 3">
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/BD4.png" class="img-fluid" alt="Projeto 4">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/BD11.png" class="img-fluid" alt="Projeto 5">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/BD12.png" class="img-fluid" alt="Projeto 6">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/BD13.png" class="img-fluid" alt="Projeto 7">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/BD14.png" class="img-fluid" alt="Projeto 8">
+                    </div>
+
+                    <!-- HTML -->
+
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active"> HTML </button>
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/html1.png" class="img-fluid" alt="Projeto 1">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/html2.png" class="img-fluid" alt="Projeto 2">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/html3.png" class="img-fluid" alt="Projeto 3">
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/html4.png" class="img-fluid" alt="Projeto 4">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/html11.png" class="img-fluid" alt="Projeto 5">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/html12.png" class="img-fluid" alt="Projeto 6">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/html13.png" class="img-fluid" alt="Projeto 7">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/html14.png" class="img-fluid" alt="Projeto 8">
+                    </div>
+
+                    <!-- HTML CSS -->
+
+                    <div class="col-md-12" id="filter-btn-box">
+                        <button class="main-btn filter-btn active"> HTML CSS </button>
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/HTMLCSS1.png" class="img-fluid" alt="Projeto 1">
+                    </div>
+                    <div class="col-md-3 project-box dsg">
+                        <img src="img/HTMLCSS2.png" class="img-fluid" alt="Projeto 2">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/HTMLCSS3.png" class="img-fluid" alt="Projeto 3">
+                    </div>
+                    <div class="col-md-3 project-box dev">
+                        <img src="img/HTMLCSS4.png" class="img-fluid" alt="Projeto 4">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/HTMLCSS11.png" class="img-fluid" alt="Projeto 6">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/HTMLCSS12.png" class="img-fluid" alt="Projeto 7">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/HTMLCSS13.png" class="img-fluid" alt="Projeto 8">
+                    </div>
+                    <div class="col-md-3 project-box seo">
+                        <img src="img/HTMLCSS14.png" class="img-fluid" alt="Projeto 9">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" id="contato">
+                        <h3 class="main-title"> Entre em contato comigo </h3>
+                    </div>
+                    <div class="col-md-6 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-tile">Ligue para (WhatsApp):</span> (31)99816-5044</p>
+                    </div>
+                    <div class="col-md-6 contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-tile">Envie um email:</span> rcnfuncional@gmail.com </p>
+                    </div>
+                    <div class="col-md-6" id="msg-box">
+                        <p>Ou me mande uma mensagem:</p>
+                    </div>
+
+                    <!-- Form -->
+
+                    <div class="col-md-6" id="contact-form">
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+                            <input type="hidden" name="accessKey" value="25997593-0143-4b7d-b408-990f26fcf7aa">
+                            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                            <input type="text" class="form-control" placeholder="Nome" name="name" required>
+                            <input type="text" class="form-control" placeholder="E-mail" name="email" required>
+                            <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
+                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"
+                                required></textarea>
+                            <input type="submit" class="main-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copy-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por <a href="https://www.linkedin.com/in/rafael-nogueira-49382b221/"
+                                target="_blank"> Rafael Nogueira </a> &copy; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
