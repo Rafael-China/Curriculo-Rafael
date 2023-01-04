@@ -36,7 +36,7 @@
 
 <body>
 
-    <header>
+    <header id="smoth">
 
         <div class="container" id="nav-container">
 
@@ -55,7 +55,6 @@
 
                     <div class="navbar-nav">
                         <a class="nav-itens nav-link" href="#sobre">Sobre mim</a>
-                        <a class="nav-itens nav-link" href="#MeuTime">Meu Time</a>
                         <a class="nav-itens nav-link" href="#portifolio">Projetos</a>
                         <a class="nav-itens nav-link" href="#contato">Contato</a>
                     </div>
@@ -80,11 +79,14 @@
                     </div>
                     <div class="col-md-6">
                         <h3 class="about-title"> Eu </h3>
-                        <p> Olá! Seja muito bem-vindo ao meu site, meu nome é Rafael de Carvalho Nogueira, mas me chame
+                        <p id="justificado"> Olá! Seja muito bem-vindo ao meu site, meu nome é Rafael de Carvalho Nogueira, mas me chame
                             de
-                            China, tenho 19 anos, atualmente sou estudante de engenharia elétrica na UFMG (Universidade
+                            China, tenho 19 anos, atualmente por diversão tiro algumas fotos para meu <a
+                                href="https://www.instagram.com/ralf_china/" target="_blank" id="decoration">Instagram</a>, sou estudante
+                            de engenharia
+                            elétrica na UFMG (Universidade
                             Federal de Minas
-                            Gerais) 1° período, devido ao ingresso na faculdade sou ex estudante do Senai CTTI
+                            Gerais), devido ao ingresso na faculdade sou ex estudante do Senai CTTI
                             (Centro de Treinamento da Tecnologia
                             Informação),
                             onde estava cursando o 2° módulo. Estavamos estudando no momento HTML 5, CSS 3, JavaScript.
@@ -117,36 +119,6 @@
             </div>
         </div>
 
-        <!-- Time -->
-
-        <div id="team-area" >
-            <div id="MeuTime"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="main-title"> Meu time </h3>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <img src="img/Card Rafael.jpeg" class="card-img-top" alt="Rafael">
-                            <div class="card-body">
-                                <h5 class="card-title"> Rafael </h5>
-                                <p class="card-text"> Desenvolvedor </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card">
-                            <img src="img/" class="card-img-top" alt="Você">
-                            <div class="card-body">
-                                <h5 class="card-title"> ??? </h5>
-                                <p class="card-text"> Design </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Portfólio -->
         <div id="portfolio-area">
             <div class="container">
@@ -330,24 +302,38 @@
                     <div class="col-md-12" id="contato">
                         <h3 class="main-title"> Entre em contato comigo </h3>
                     </div>
-                    <div class="col-md-6 contact-box">
-                        <i class="fas fa-phone"></i>
-                        <p><span class="contact-tile">Ligue para (WhatsApp):</span> (31)99816-5044</p>
-                    </div>
-                    <div class="col-md-6 contact-box">
+                    <div class="col-md-3 contact-box">
                         <i class="fas fa-envelope"></i>
-                        <p><span class="contact-tile">Envie um email:</span> rcnfuncional@gmail.com </p>
+                        <p><span class="contact-tile">Envie um email:</span><br> rcnfuncional@gmail.com </p>
+                    </div>
+                    <div class="col-md-3 contact-box">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-tile">Telefone (WhatsApp):</span> <a href="tel: +5531998165044"
+                                id="decoration"><br>(31)99816-5044</a></p>
+                    </div>
+                    <div class="col-md-3 contact-box">
+                        <i class="fa fa-instagram"></i>
+                        <p><span class="contact-tile">Instagram:</span> <a href="https://www.instagram.com/ralf_china/"
+                                id="decoration" target="_blank"><br>@ralf_china</a></p>
+                    </div>
+                    <div class="col-md-3 contact-box">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <p><span class="contact-tile">Linkedin:</span> <a
+                                href="https://www.linkedin.com/in/rafael-nogueira-49382b221/" id="decoration"
+                                target="_blank"><br>Rafael Nogueira</a></p>
                     </div>
                     <div class="col-md-6" id="msg-box">
                         <p>Ou me mande uma mensagem:</p>
                     </div>
+
 
                     <!-- Form -->
 
                     <div class="col-md-6" id="contact-form">
                         <form action="https://api.staticforms.xyz/submit" method="post">
                             <input type="hidden" name="accessKey" value="25997593-0143-4b7d-b408-990f26fcf7aa">
-                            <input type="hidden" name="redirectTo" value="https://rafael-china.github.io/Curriculo-Rafael/">
+                            <input type="hidden" name="redirectTo"
+                                value="https://rafael-china.github.io/Curriculo-Rafael/">
                             <input type="text" class="form-control" placeholder="Nome" name="name" required>
                             <input type="text" class="form-control" placeholder="E-mail" name="email" required>
                             <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
