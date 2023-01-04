@@ -7,6 +7,7 @@
 
 html {
     scroll-behavior: smooth;
+    animation: fade 2s ease-in 1s;
 }
 
 body {
@@ -64,7 +65,11 @@ header,
     border-bottom: 3px solid #FFF;
 }
 
-/* Sobre a empresa */
+/* Sobre mim */
+
+#justificado{
+    text-align: justify;
+}
 
 #about-area {
     background-color: #F9F9F9;
@@ -151,6 +156,10 @@ header,
 }
 
 /* Footer */
+
+#decoration{
+    color: inherit;
+}
 
 #contact-area {
     text-align: center;
