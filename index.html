@@ -512,10 +512,10 @@
                             <input type="hidden" name="accessKey" value="25997593-0143-4b7d-b408-990f26fcf7aa">
                             <input type="hidden" name="redirectTo"
                                 value="https://rafael-china.github.io/Curriculo-Rafael/">
-                            <input type="text" class="form-control" placeholder="Nome" name="name" required>
-                            <input type="text" class="form-control" placeholder="E-mail" name="email" required>
-                            <input type="text" class="form-control" placeholder="Assunto" name="subject" required>
-                            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"
+                            <input type="text" class="form-control" placeholder="*Nome" name="name" required>
+                            <input type="text" class="form-control" placeholder="*E-mail" name="email" required>
+                            <input type="text" class="form-control" placeholder="*Assunto" name="subject" required>
+                            <textarea class="form-control" rows="3" placeholder="*Sua mensagem..." name="message"
                                 required></textarea>
                             <input type="submit" class="main-btn">
                         </form>
@@ -533,6 +533,25 @@
                 </div>
             </div>
         </div>
+        <!-- alerta de envio de formulario -->
+        <script>
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault(); // Impede o envio do formulário
+
+                // Exibe o alerta quando o botão de submit é clicado
+                Swal.fire({
+                    title: 'Mensagem Enviada!',
+                    text: 'Obrigado por entrar em contato. Sua mensagem foi recebida com sucesso!',
+                    icon: 'success',
+                    confirmButtonText: 'Fechar',
+                    timer: 7000,
+                    timerProgressBar: true,
+                    toast: true,
+                    position: 'top-end',
+                    showConfirmButton: false
+                });
+            });
+        </script>
     </footer>
 
     <script src="js/scripts.js"></script>
