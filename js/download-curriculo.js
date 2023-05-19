@@ -17,14 +17,14 @@ document.getElementById('downloadLink').addEventListener('click', function(event
   
   function downloadFile() {
     // Defina a URL do arquivo que deseja baixar
-    var fileUrl = 'Curriculo Rafael Nogueira.pdf';
+    var fileUrl = 'CurriculoRafaelNogueira.pdf';
   
     // Crie um elemento de link temporário
     var link = document.createElement('a');
     link.href = fileUrl;
   
     // Defina o nome do arquivo
-    link.download = 'Curriculo Rafael Nogueira.pdf';
+    link.download = 'CurriculoRafaelNogueira.pdf';
   
     // Adicione o link ao documento e clique nele
     document.body.appendChild(link);
